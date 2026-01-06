@@ -19,7 +19,7 @@ const advices = [
 ];
 
 // المفضلة من LocalStorage
-let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+ const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
 // فتح / غلق القائمة الجانبية
 menuBtn.addEventListener('click', () => {
